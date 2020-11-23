@@ -12,7 +12,7 @@ const uniqueValidator = require('mongoose-unique-validator');
 //const mongoMask = require('mongo-mask')
 
 const sauceSchema = mongoose.Schema({
-    userid: { type: String, required: true },
+    userId: { type: String, required: true },
     name: { type: String, required: true, unique: true },
     manufacturer: { type: String, required: true },
     description: { type: String },
